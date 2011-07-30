@@ -63,11 +63,8 @@ GEM
     mogli (0.0.29)
       hashie (~> 1.0.0)
       httparty (>= 0.4.3)
-<<<<<<< HEAD
-=======
     multi_json (1.0.3)
     multipart-post (1.1.3)
->>>>>>> 5c23a4420fbd4d26645fc7266d7ddc38acbb1b13
     mysql2 (0.2.7)
     nokogiri (1.4.4)
     oauth2 (0.5.0)
