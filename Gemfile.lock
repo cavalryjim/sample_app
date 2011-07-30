@@ -28,6 +28,7 @@ GEM
       activemodel (= 3.0.5)
       activesupport (= 3.0.5)
     activesupport (3.0.5)
+    addressable (2.2.6)
     annotate-models (1.0.4)
     arel (2.0.9)
     builder (2.1.2)
@@ -43,11 +44,16 @@ GEM
       factory_girl (~> 1.3)
       rails (>= 3.0.0.beta4)
     faker (0.3.1)
+    faraday (0.7.4)
+      addressable (~> 2.2.6)
+      multipart-post (~> 1.1.0)
+      rack (>= 1.1.0, < 2)
     gravatar_image_tag (1.0.0.pre2)
     hashie (1.0.0)
     httparty (0.7.8)
       crack (= 0.1.8)
     i18n (0.5.0)
+    json (1.5.3)
     mail (2.2.15)
       activesupport (>= 2.3.6)
       i18n (>= 0.4.0)
@@ -57,8 +63,16 @@ GEM
     mogli (0.0.29)
       hashie (~> 1.0.0)
       httparty (>= 0.4.3)
+<<<<<<< HEAD
+=======
+    multi_json (1.0.3)
+    multipart-post (1.1.3)
+>>>>>>> 5c23a4420fbd4d26645fc7266d7ddc38acbb1b13
     mysql2 (0.2.7)
     nokogiri (1.4.4)
+    oauth2 (0.5.0)
+      faraday (>= 0.6.1, < 0.8)
+      multi_json (~> 1.0.0)
     polyglot (0.3.1)
     rack (1.2.2)
     rack-mount (0.6.14)
@@ -113,7 +127,9 @@ DEPENDENCIES
   factory_girl_rails (= 1.0)
   faker (= 0.3.1)
   gravatar_image_tag (= 1.0.0.pre2)
+  json
   mysql2
+  oauth2
   rails (= 3.0.5)
   rspec (= 2.5.0)
   rspec-rails (= 2.5.0)
