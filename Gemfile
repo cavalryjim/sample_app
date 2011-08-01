@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
 gem 'rails', '3.0.5'
-gem 'mysql2'
+gem 'mysql2', '0.2.7'
 gem 'json'
 gem 'omniauth'
 gem 'nifty-generators', '>= 0.4.0'
