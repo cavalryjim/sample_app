@@ -2,9 +2,9 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.5'
 gem 'mysql2'
-gem 'facebooker2'
-gem 'oauth2'
 gem 'json'
+gem 'omniauth'
+gem 'nifty-generators', '>= 0.4.0'
 
 # gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
@@ -24,3 +24,4 @@ group :test do
 end
 
 # end
+gem "mocha", :group => :test
