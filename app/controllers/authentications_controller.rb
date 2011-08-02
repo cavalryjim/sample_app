@@ -32,4 +32,13 @@ class AuthenticationsController < ApplicationController
     flash[:notice] = "Successfully destroyed authentication."
     redirect_to authentications_url
   end
+  
+  protected
+
+  # This is necessary since Rails 3.0.4
+  # See https://github.com/intridea/omniauth/issues/185
+  # and http://www.arailsdemo.com/posts/44
+  def handle_unverified_request
+    true
+  end
 end
