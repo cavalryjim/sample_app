@@ -35,3 +35,12 @@
   OpenID
 </a>
 <div class="clear"></div>
+
+<% unless signed_in? %>
+  <p>
+    <strong>Don't use these services?</strong>
+    <%= link_to "Sign up", signup_path %> or
+    <%= link_to "sign in", signin_path %> with a password.
+  </p>
+<% end %>
+

@@ -5,6 +5,7 @@ gem 'mysql2', '0.2.7'
 gem 'json'
 gem 'omniauth'
 gem 'nifty-generators', '>= 0.4.0'
+gem 'devise'
 
 # gem 'sqlite3-ruby', '1.3.2', :require => 'sqlite3'
 gem 'gravatar_image_tag', '1.0.0.pre2'
